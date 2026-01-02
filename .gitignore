@@ -1,11 +1,15 @@
 secret.txt
+# 가상환경 폴더 무시
+venv/
+env/
+
+# 보안 파일(API KEY) 무시 - 절대 올리지 마세요
+.env
+
 # 파이썬 자동 생성 파일 무시
 __pycache__/
 *.py[cod]
 
-# 가상환경 폴더 무시
-venv/
-.env
-
-# 맥(Mac) 쓰레기 파일 무시
+# 맥/윈도우 시스템 파일 무시
 .DS_Store
+Thumbs.db
